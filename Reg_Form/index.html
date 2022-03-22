@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Registration Form</title>
+</head>
+<body>
+<h1>Registration Form</h1>
+<Form>
+ <div id="firstName">
+ <label for="firstName">First Name:*</label>
+ <input type="text" name="FirstName" id="firstName">
+</div>
+ <div id="lastName">
+ <label for="firstName">Last Name:*</label>
+ <input type="text" name="lastName" id="lastName">
+</div>
+ <div id="emailAddress">
+ <label for="emailAddress">Email Address:*</label>
+ <input type="email" name=emailAddress" id=emailAddress">
+</div>
+ <div id="password">
+ <label for="password">Password:*</label>
+ <input type="password" name=password" id=password">
+</div>
+ <div id="password">
+ <label for="password">Confirm Password:*</label>
+ <input type="password" name=password" id=password">
+</div>
+ <div id="birthday">
+ <label for="birthday">Birthday:*</label>
+ <input type="date" name=birthday" id=birthday">
+</div>
+<div id="genderIdentity">
+ <input type="radio" name="genderIdentity" id="male" value="male">
+ <label for="male">Male</label>
+ <input type="radio" name="genderIdentity" id="female" value="female">
+ <label for="female">Female</label>
+ <input type="radio" name="genderIdentity" id="nonBinary" value="nonBinary">
+ <label for="nonBinary">Non-binary</label>
+ <input type="radio" name="genderIdentity" id="noAnswer" value="noAnswer">
+ <label for="noAnswer">I prefer not to answer</label>
+<div id="description"><label for="description">A short description about myself:</label></div> 
+</div>
+ <div id="textArea">
+ <textarea name="description" id="" cols="30" rows="5"></textarea>
+ </div>
+ <label for="dropDown">Favorite Language:</label>
+<select id="dropDown" name="dropDown">
+  <option value="javaScript">JavaScript</option>
+  <option value="python">Python</option>
+  <option value="c#">C#</option>
+  <option value="ruby">Ruby</option>
+  <option value="java">Java</option>
+</select>
+  <div><input type="checkbox" id="emailUpdates" name="emailUpdates" value="checkbox" checked>
+  <label for="emailUpdates"> Yes, I would like to receive periodic email updates</label>
+ </div>
+ <button type="button">Create Account</button>
+ <p>* Indicates a required field</p>
+</body>
+
+
+</html>
